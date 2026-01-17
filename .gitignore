@@ -205,3 +205,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Models (실험 데이터와 모델은 제외)
+data/
+models/
+*.bin
+*.pth
+*.pt
+*.safetensors
+
+# Results (결과물 중 큰 파일은 제외하고 싶은 경우 추가)
+# 시각화 이미지나 분석 리포트(JSON)만 추적하려면 아래와 같이 관리
+!results/
+results/*.log
+
+# Environments
+.venv/
+env/
+venv/
