@@ -1,4 +1,5 @@
- Analysis of Domain Specialization and Fusion Neurons in LLMs
+-Analysis of Domain Specialization and Fusion Neurons in LLMs 
+
 본 연구는 대규모 언어 모델(LLM)이 의료(Medical)와 법률(Legal)이라는 서로 다른 전문 지식을 내부적으로 어떻게 분리하여 저장하는지, 그리고 그 접점인 의료법(Medical-Law Fusion) 지식을 처리할 때 기존 뉴런을 재사용하는지 혹은 전용 뉴런을 생성하는지 분석합니다.
 
 -핵심 요약
@@ -24,7 +25,7 @@ Analysis Point: 레이어별 MLP SwiGLU 출력 (h)
 
 Pooling: 특정 전문 토큰에 대한 반응성을 포착하기 위해 문장 내 Max-pooling (Peak Activation) 강도 추출.
 
-📊 주요 실험 결과
+- 주요 실험 결과
 [실험 1] 모델 파라미터에 따른 도메인 분화 양상
 
 Qwen-1.7B: 모든 레이어에서 의료법 노드의 대부분이 의료/법률 노드와 겹침. (지식의 압축적 저장)
